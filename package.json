@@ -9,6 +9,8 @@
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"
   },
+  "updateURL": "https://monokles.eu/shoxyff/update.rdf",
+  "updateLink": "https://monokles.eu/shoxyff/shoxyff.xpi",
   "permissions": {"private-browsing": true},
   "preferences": [{
       "name": "server",
