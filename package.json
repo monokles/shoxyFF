@@ -1,7 +1,7 @@
 {
   "title": "ShoxyFF",
   "name": "shoxyff",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Adds context menu entries for sharing links / media through a Shoxy server",
   "main": "index.js",
   "author": "monokles",
