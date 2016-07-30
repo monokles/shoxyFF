@@ -23,7 +23,11 @@ var shoxify = function(url) {
           content: body,
           contentType: "application/json",
           onComplete: function (response) {
-              addClip(response.json["url"])
+              uri = response.json["url"];
+              if (!uri.startsWith("http")) {
+                  uri = "http://" + uri;
+              }
+              addClip(uri);
           }
     }).post();
 };
