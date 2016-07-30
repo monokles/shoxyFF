@@ -1,0 +1,33 @@
+{
+  "title": "ShoxyFF",
+  "name": "shoxyff",
+  "version": "0.0.1",
+  "description": "Adds context menu entries for sharing links / media through a Shoxy server",
+  "main": "index.js",
+  "author": "monokles",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "preferences": [{
+      "name": "server",
+      "title": "Server URL",
+      "description": "URL of the shoxy server, including port",
+      "type": "string",
+      "value": "http://xn--zce.tv/"
+  }, {
+      "name": "codeLength",
+      "title": "Shortcode length",
+      "description": "The shortcode length that will be requested (note, returned length may differ based on availability)",
+      "type": "integer",
+      "value": 5
+  }, {
+      "name": "bypassKey",
+      "title": "Expiration bypass key",
+      "description": "If you have one, this key can be used to generate shortcodes that last for an infinite amount of time.",
+      "type": "string",
+      "value": ""
+  } ],
+  "license": "MIT",
+  "keywords": [ "shoxy", "shortener", "url", "shoxyFF" ]
+}
